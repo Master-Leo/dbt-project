@@ -4,7 +4,7 @@
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'brilliant-balm'
-version: '1.0.0'
+version: '1.4.6'
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
