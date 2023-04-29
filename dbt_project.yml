@@ -3,7 +3,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'brilliant-balm'
+name: 'brilliant_balm'
 version: '1.4.6'
 config-version: 2
 
@@ -34,7 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  brilliant-balm:
+  brilliant_balm:
       # Applies to all files under models/.../
       staging:
           materialized: view
