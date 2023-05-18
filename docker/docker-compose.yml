@@ -1,0 +1,12 @@
+version: '3'
+services:
+  dbt-bq-dtc:
+    build:
+      context: .
+      target: dbt-bigquery
+    image: dbt/bigquery
+    volumes:
+      - .:/usr/app
+      - ~/.dbt/:/root/.dbt/
+      - ~/Users/og/Desktop/brilliant-balm-379703-2c88b124b216.json:/Users/og/Desktop/brilliant-balm-379703-2c88b124b216.json
+    network_mode: host
